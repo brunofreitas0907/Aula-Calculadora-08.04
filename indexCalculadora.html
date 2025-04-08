@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="styleCalculadora.css">
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+
+    <section class="jogo">
+
+        <div class="conteiner">
+
+            <div class="info-jogo">
+                <h1>CALCULADORA</h1>
+                <h2>SOMA | SUBTRAÇÃO | DIVISÃO | MULTIPLICAÇÃO</h2>
+            </div>
+
+            <!-- Botões que o usuário escolherá a operação -->
+            <div class="escolha-operacoes">
+               <h3>Escolha abaixo a operação desejada:</h3>
+
+               <div class="botoes">
+                    <button id="soma">SOMA</button>
+                    <button id="subtracao">SUBTRAÇÃO</button>
+                    <button id="divisao">DIVISÃO</button>
+                    <button id="multiplicacao">MULTIPLICAÇÃO</button>
+                </div>
+            </div>
+            <!-- Botões que o usuário escolherá a Operação -->
+
+            <!-- Caixa que irá conter os valores inseridos pelo usuário -->
+            <div class="valores">
+                <h3>Escreva abaixo os números que deseja realizar a operação:</h3>
+             
+                <div class="caixas-valores">
+
+                    <div id="caixa-valor1">
+                        <p>Digite o 1° valor:</p>
+
+                        <div class="caixa">
+                            <input type="text">
+                        </div>
+                    </div>
+                
+                    <div id="caixa-valor2">
+                        <p>Digite o 2° valor:</p>
+
+                        <div class="caixa">
+                            <input type="text">
+                        </div>
+                    </div>
+                </div>
+
+                <script src="scriptCalculadora.js"></script>
+            </div>
+            <!-- Caixa que irá conter os valores inseridos pelo usuário -->
+
+            <!-- Caixa que irá exibir o resultado da operação -->
+            <div class="resultado">
+                <h1>RESULTADO:</h1>
+
+                
+            </div>
+
+        </div>
+    
+    </section>
+    
+</body>
+
+</html>
