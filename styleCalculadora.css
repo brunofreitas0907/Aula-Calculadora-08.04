@@ -1,0 +1,89 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: "Bungee Tint", sans-serif;
+    background-color: rgb(216, 245, 255);
+}
+
+.conteiner
+{
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+
+input
+{
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2.5px solid darkblue;
+
+}
+
+button
+{
+    width: 130px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2.5px solid darkblue;
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+}
+
+/* Informações Calculadora */
+.info-jogo h1
+{
+    margin-top: 180px;
+    font-size: 60px;
+}
+
+.info-jogo p
+{
+    margin-top: 50px;
+}
+
+/* Botões para escolha da operação */
+.escolha-operacoes
+{
+    margin-top: 60px;
+}
+
+.botoes
+{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Caixas para receber valores */
+.valores
+{
+    margin-top: 40px;
+}
+
+.caixas-valores
+{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#caixa-valor1
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#caixa-valor2
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
