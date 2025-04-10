@@ -26,7 +26,7 @@
             
             <!-- Caixa que irá conter os valores inseridos pelo usuário -->
             <div class="valores">
-                <h3>Escreva abaixo os números que deseja realizar a operação:</h3>
+                <h3>Digite abaixo os números que deseja realizar a operação:</h3>
              
                 <div class="caixas-valores">
 
@@ -34,7 +34,7 @@
                         <p>Digite o 1° valor:</p>
 
                         <div class="caixa">
-                            <input type="text">
+                            <input id= 'valor1' type="number">
                         </div>
                     </div>
                 
@@ -42,7 +42,7 @@
                         <p>Digite o 2° valor:</p>
 
                         <div class="caixa">
-                            <input type="text">
+                            <input id = 'valor2' type="number">
                         </div>
                     </div>
                 </div>
@@ -65,8 +65,7 @@
             <!-- Caixa que irá exibir o resultado da operação -->
             <div class="resultado">
                 <h1>RESULTADO:</h1>
-
-                
+                <p id = 'caixa-resultado'></p>
             </div>
 
         </div>
