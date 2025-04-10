@@ -20,7 +20,6 @@ input
     border-radius: 5px;
     background-color: white;
     border: 2.5px solid darkblue;
-
 }
 
 button
@@ -32,6 +31,12 @@ button
     background-color: darkblue;
     color: white;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover
+{
+   transform: scale(1.04);
 }
 
 /* Informações Calculadora */
@@ -86,4 +91,21 @@ button
     display: flex;
     gap: 10px;
     align-items: center;
+}
+
+/* Caixa Resultado */
+.resultado
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.resultado #caixa-resultado
+{
+    margin: 15px;
+    background-color: white;
+    border: 2.5px solid darkblue;
+    border-radius: 5px;
+    width: 70px;
+    height: 20px;
 }
